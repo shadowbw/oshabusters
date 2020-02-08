@@ -1,0 +1,39 @@
+.blue-btn {
+	color: #ffffff;
+	background-color: #002868;
+}
+
+.blue-btn:focus, .blue-btn:hover {
+	color: #ffffff;
+	background-color: green;
+}
+
+.red-btn {
+	color: #ffffff;
+	background-color: #BF0A30;
+}
+
+.red-btn:focus, .red-btn:hover {
+	color: #ffffff;
+	background-color: green;
+}
+
+/* change the background color */
+.navbar-light {
+    background-color: white;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+    color: #002868;
+}
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    color: #BF0A30;
+}
