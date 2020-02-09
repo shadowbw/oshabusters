@@ -32,8 +32,25 @@
     color: #002868;
 }
 /* change the color of active or hovered links */
-.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item.active .nav-link {
+	color: #002868;
+    text-decoration: underline;
+    text-decoration-color: #BF0A30;
+}
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-    color: #BF0A30;
+	color: green;
+}
+
+a {
+	color: #002868;
+}
+
+a:focus, a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+body {
+	color: #002868;
 }
